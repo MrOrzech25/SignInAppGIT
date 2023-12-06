@@ -14,5 +14,10 @@ namespace SignInAppGIT
         {
             InitializeComponent();
         }
+
+        private void SignInUser_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
