@@ -5,14 +5,14 @@
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
-        <Entry Placeholder="e-mail" x:Name="emailEntry" Grid.Row="0" Margin="10"/>
-        <Entry Placeholder="password" x:Name="passwordEntry" Grid.Row="1" Margin="10"/>
+        <Entry Placeholder="e-mail" x:Name="emailEntry" Grid.Row="0" Margin="20, 120, 20, 0"/>
+        <Entry Placeholder="password" x:Name="passwordEntry" Grid.Row="1" Margin="20, 0, 20, 0"/>
 
-        <Button Text="Sign In" Grid.Row="2" Clicked="SignInUser_Clicked" Margin="30"/>
+        <Button Text="Sign In" Grid.Row="2" Clicked="SignInUser_Clicked" Margin="100, 70, 100, 0" CornerRadius="10" BackgroundColor="MediumAquamarine" TextColor="white"/>
     </Grid>
 
 </ContentPage>
